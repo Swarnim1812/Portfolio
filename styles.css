@@ -562,3 +562,39 @@ input[type=text]:focus {
     text-align: justify;
   }
 }
+@media screen and (max-width : 400px) {
+  .image3{
+    height: 0;
+    width: 0;
+  }
+  .content{
+    margin-right: 0;
+    width: 100%;
+  }
+  .navbar a{
+    font-size: 10px;
+  }
+  .container{
+    font-size: 10px;
+    width: 100%;
+  }
+  .icon1{
+    margin: 0;
+  }
+  .cf-container{
+    width: 100%;
+    margin: 0;
+  }
+  .cf-image{
+    height: 30px;
+  }
+  .content h4{
+    font-size: 10px;
+  }
+  .thumbnail1{
+    width: 100%;
+  }
+  .header{
+    height: 9em;
+  }
+}
